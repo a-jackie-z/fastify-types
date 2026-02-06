@@ -1,0 +1,41 @@
+{
+  "name": "@a_jackie_z/fastify-types",
+  "version": "1.0.0",
+  "description": "Type definitions and schemas for Fastify API contracts - frontend compatible",
+  "license": "MIT",
+  "author": "Sang Lu <connect.with.sang@gmail.com>",
+  "repository": {
+    "url": "git+https://github.com/a-jackie-z/fastify-types.git"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "fastify",
+    "types",
+    "schemas",
+    "frontend",
+    "api",
+    "typescript"
+  ]
+}
