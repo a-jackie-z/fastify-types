@@ -1,6 +1,6 @@
 {
   "name": "@a_jackie_z/fastify-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type definitions and schemas for Fastify API contracts - frontend compatible",
   "license": "MIT",
   "author": "Sang Lu <connect.with.sang@gmail.com>",
